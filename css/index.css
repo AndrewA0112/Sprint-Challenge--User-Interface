@@ -156,8 +156,9 @@ header nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
+    align-items: flex-end;
+    padding-top: 3%;
+    padding-bottom: 5%;
     font-size: 14px;
 }
 
