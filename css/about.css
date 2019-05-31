@@ -80,14 +80,13 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 100%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
@@ -144,3 +143,63 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* My Code Starts Here */
+
+/* Header Code */
+
+header {
+    width: 100%;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    font-size: 14px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header .headerPic {
+    padding-bottom: 2%;
+}
+
+/* Main Content */
+
+.middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.middle-content div {
+    margin-bottom: 2%; 
+    width: 370px;
+}
+
+.middle-content .left-content {
+    margin-left: 2%;
+}
+
+.middle-content .right-content {
+    margin-right: 2%;
+}
+
+.middle-content h3 {
+    padding-top: 3%;
+}
+
+.middle-content button {
+    margin-top: 3%;
+    border-radius: 4px;
+}
+
+/* Footer */
