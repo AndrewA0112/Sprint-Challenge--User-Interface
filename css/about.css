@@ -183,6 +183,8 @@ header .headerPic {
 .middle-content div {
     margin-bottom: 2%; 
     width: 370px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 4%; 
 }
 
 .middle-content .left-content {
@@ -199,7 +201,15 @@ header .headerPic {
 
 .middle-content button {
     margin-top: 3%;
-    border-radius: 4px;
+    border-radius: 6px;
+    padding: 2% 8%;
+    border: 2px black solid;
+    background: white;
+    color: black;
+}
+
+.middle-content button:hover {
+    background: lightgrey;
 }
 
 /* Footer */
